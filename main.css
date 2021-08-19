@@ -1,0 +1,412 @@
+.navbar{
+    background-color: rgb(6, 10, 6);
+    height: 40px;
+    width: 100%;
+}
+
+.navbarlista{
+    display:flex;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.navbarlista li{
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+li :hover{
+    color: rgb(248, 185, 25);
+    cursor:pointer;
+}
+
+
+
+
+/* tamanhos dos conteudos */
+
+.conteudo1, .conteudo2, .conteudo3, .conteudo4, .conteudo5, .conteudo6{
+    height: 600px;
+    width: 100%;
+}
+
+/* conteudo 1 */
+
+.conteudo1{
+    background-color: rgb(240, 205, 8);
+    background-image: url(./thu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+  
+
+
+
+.conteudo1 h1{
+    color: rgb(252, 7, 7);
+    font-size: 60px;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Noto Serif', serif;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(148, 105, 12), 0 0 0.2em rgb(155, 112, 20);
+   color: white;
+}
+
+
+  body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+  }
+  
+  h1 {
+    color: #f1c40f;
+    font-size: 4rem;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  p {
+    color: #f1c40f;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #F4D514;
+    border-radius: 0.6em;
+    color: #F4D514;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+   margin-left: 44%;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #F4D514 inset;
+  }
+  
+
+
+
+/* conteudo 2 */
+
+.conteudo2{
+    background-color: rgb(252, 250, 146);
+    display: flex;
+}
+
+
+.c2a{
+    height: 100%;
+    width: 50%;
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    padding:50px;
+
+}
+.c2a h1{
+color: rgb(255, 255, 255);
+
+}
+
+.c2a p{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.c2a p span{
+  color: rgb(255, 251, 27);
+  text-decoration:underline;
+}
+
+
+.c2b{
+    height: 100%;
+    width: 50%;
+    background-color: #806E18;
+    padding: 20px;
+}
+input[type=text], select{
+width: 100%;
+padding:12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit]{
+  width: 100%;
+  background-color: rgb(40, 122, 19);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: #45a049
+}
+
+.form{
+  border-radius: 5px;
+  background-color: rgb(204, 204, 204);
+  padding: 20px;
+}
+
+body h3{
+  margin-left: 300px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+
+
+/* conteudo 3 */
+
+.conteudo3{
+    background-color:  rgb(14, 12, 5);
+    height: 700px;
+}
+
+.linha{
+  background-color: rgb(14, 12, 5);
+  display: flex;
+  justify-content:space-around;
+  padding-top: 10px;
+  
+ 
+}
+
+.card{
+  height: 600px;
+  width: 400px;
+  background-color: rgb(8, 8, 8);
+}
+
+.card-img{
+  height: 60%;
+  width: 100%;
+  background-color: rgb(253, 250, 246);
+  border-bottom-right-radius: 20px;
+  
+  background-image: url(./field.jpg);
+  background-position: cover;
+  border-bottom-left-radius: 20px;
+  background-position-x: center;
+
+
+
+}
+
+.card-text{
+  height: 60%;
+  width: 100%;
+  background-color:  rgb(14, 12, 5);
+
+}
+
+.text1{
+  color: rgb(255, 255, 255);
+}
+
+.text2{
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+.card2{
+  height: 600px;
+  width: 400px;
+  background-color: rgb(8, 8, 8);
+}
+
+.card-img2{
+  height: 60%;
+  width: 100%;
+  background-color: rgb(253, 250, 246);
+  border-bottom-right-radius: 20px;
+  
+  background-image: url(./gira.jpg);
+  background-position: cover;
+  border-bottom-left-radius: 20px;
+  background-position-x: center;
+
+
+
+}
+
+.card-text2{
+  height: 60%;
+  width: 100%;
+  background-color:  rgb(14, 12, 5);
+
+}
+
+.text2{
+  color: rgb(255, 255, 255);
+}
+
+.text3{
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* conteudo 4 */
+
+.conteudo4{
+    background-color: rgb(240, 239, 235);
+    padding: 100px;
+}
+
+.conteudo4 h2{
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+}
+
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px rgb(7, 112, 25) solid;
+}
+
+th, td{
+  padding: 8px;
+  text-align: center;
+  border: 1px rgb(7, 112, 25) solid;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+th{
+  font-size: 25px;
+}
+
+.tr:hover{
+  background-color: rgb(5, 5, 5);
+}
+
+
+
+
+
+
+
+/* conteudo 5 */
+
+.conteudo5{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+    background-color: #806E18;
+}
+
+.conteudo5 h1{
+  height: 30px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.conteudo5 li{
+  color: aliceblue;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* conteudo 6 */
+
+.conteudo6{
+    background-color: rgb(66, 202, 32);
+}
